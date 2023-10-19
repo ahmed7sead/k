@@ -4,10 +4,17 @@ body {
 }
 
 
+
+
 h1 {
     margin: 35px 0 22px;
+    color: #ce0909;
 }
 
+::selection {
+    background-color: red;
+    color: #fff;
+}
 /* under test */
 .input {
     border: 1px solid black;
